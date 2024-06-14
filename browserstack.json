@@ -1,0 +1,39 @@
+{
+    "auth": {
+        "username": "shashankhegde_U5lPS7",
+        "access_key": "LoEpEeefsk8pBwg6G7j6"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.json",
+        "project_name": "project-name",
+        "build_name": "build-name",
+        "exclude": [],
+        "parallels": 3,
+        "npm_dependencies": {
+            "cypress": "^7.7.0",
+            "cypress-plugin-tab": "^1.0.5",
+            "cypress-xpath": "^1.6.1",
+            "mocha": "^8.2.1",
+            "typescript": "^4.1.2"
+        },
+        "package_config_options": {},
+        "specs": [ "cypress/tests/spiceworks-login-spec.ts","cypress/tests/api-spec.ts"],
+        "headless": true
+    },
+    "connection_settings": {
+        "local": true,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}

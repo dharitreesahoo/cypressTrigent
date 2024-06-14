@@ -1,0 +1,7 @@
+/.dockerignore
+/.github
+/.gitignore
+/.idea
+/.vscode
+/Dockerfile
+/README.md

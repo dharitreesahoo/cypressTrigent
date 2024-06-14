@@ -1,0 +1,40 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:cypress/recommended",
+		"plugin:chai-friendly/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 12
+	},
+	"plugins": [
+		"@typescript-eslint",
+		"cypress"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"sort-keys": "off",
+		"sort-imports": "off",
+		"no-restricted-imports": "off",
+		"no-var": "warn",
+		"no-unused-vars": "off",
+		"no-console": "off",
+		"cypress/no-unnecessary-waiting": "off"
+	}
+}

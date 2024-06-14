@@ -1,0 +1,15 @@
+{
+  "reporterEnabled": "cypress-junit-reporter, autoset-status-cypress-testrail-reporter, mochawesome",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/junit/results-[hash].xml",
+    "host": "https://domain.testrail.com/",
+    "username": "username",
+    "password": "pwd",
+    "projectId": 2,
+    "runId": 302,
+    "reportDir": "cypress/results/json",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

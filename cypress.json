@@ -1,0 +1,27 @@
+{
+
+	"baseUrl": "https://trigent-autotest.on.spiceworks.com",
+	"integrationFolder": "cypress/tests",
+	"screenshotsFolder": "cypress/screenshots",
+	"videosFolder": "cypress/videos",
+	"supportFile": "cypress/support/index.ts",
+	"defaultCommandTimeout": 6000,
+	"requestTimeout": 30000,
+	"responseTimeout": 30000,
+	"chromeWebSecurity": false,
+	"viewportWidth": 1100,
+	"viewportHeight": 800,
+	"reporter": "cypress-multi-reporters",
+	"video": false,
+	"reporterOptions": {
+		"configFile": "reporter-config.json"
+	},
+	"env": {
+		"SPICEWORKS_URL": "https://trigent-autotest.on.spiceworks.com",
+		"EMPLOYEE_USER_NAME": "raghukiran_b@trigent.com",
+		"EMPLOYEE_PASSWORD": "Passion@12345",
+		"GET_URL":"https://rahulshettyacademy.com/maps/api/place/get/json?place_id=c977fdd065f1dcfbf7fdbab04b670e69&key=qaclick123",
+        "POST_URL":"http://216.10.245.166/Library/Addbook.php",
+        "PATCH_URL":"https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123"
+	}
+}
